@@ -1,6 +1,6 @@
 # Task2_Web_Development
 
-In this repository I uploaded the building blocks of my Web Application [Andres_Web_Application](https://andresagdt515.github.io/Task2_Web_Development/), where the 2D and 3D network graphs can be visualised.
+In this repository I uploaded the building blocks of my Web Application [Andres_Web_Application](https://andresagdt515.github.io/Task2_Web_Development/), where the 2D and 3D network graphs can be visualised. Please, use a computer to visit the Web Application. Platform is not entirely responsive.
 
 Structure:
 - Data <br />
