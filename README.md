@@ -6,10 +6,10 @@ Files:
 - index.html <br />
 HTML instructions for initial page (My solution)
 - 2Dnetwork.html <br />
-HTML sheet for 2D graph page
+HTML sheet for 2D graph's page
 - 2Dnetwork.js <br />
-JavaScript script for 2D graph visualisation in 2D graph page
+JavaScript script for 2D graph visualisation in 2D graph's page
 - 3Dnetwork.html <br />
-HTML sheet for 2D graph page
+HTML sheet for 3D graph's page
 - 3Dnetwork.js <br />
-JavaScript script for 2D graph visualisation in 2D graph page
+JavaScript script for 3D graph visualisation in 3D graph's page
