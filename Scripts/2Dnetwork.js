@@ -14,7 +14,7 @@ var canvas = d3.select("#network"),
             .id(function (d) { return d.id; }));
         
         
-        d3.json("data2D.json", function (err, graph) {
+        d3.json("../Data/data2D.json", function (err, graph) {
         if (err) throw err;
         
         simulation.nodes(graph.nodes);

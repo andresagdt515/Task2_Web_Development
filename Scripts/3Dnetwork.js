@@ -1,6 +1,6 @@
 
             jgraph.create('.graph', {directed: true});
-            $.getJSON('data3D.json', function (graph) {
+            $.getJSON('../Data/data3D.json', function (graph) {
                 jgraph.draw(graph);
             });
 
