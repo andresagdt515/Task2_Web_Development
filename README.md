@@ -2,7 +2,7 @@
 
 In this repository I uploaded the building blocks of my Web Application [Andres_Web_Application](https://andresagdt515.github.io/Task2_Web_Development/), where the 2D and 3D network graphs can be visualised.
 
-Files:
+Structure:
 - Data <br />
 Json files and a photo of myself
 - jgraph <br />
