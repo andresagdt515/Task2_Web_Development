@@ -43,6 +43,15 @@ html, body {
     z-index: 100;
   }
 
+  .description3D {
+    left: 100px;
+    margin: 10px;
+    position: absolute;
+    top: 40%;
+    width: 400px;
+    z-index: 100;
+  }
+
   .andres {
     background-color: #c8d2e0;
     left: 62%;
