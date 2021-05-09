@@ -15,5 +15,5 @@ HTML instructions for initial page (My solution)
 HTML sheet for 2D graph's page
 - 3Dnetwork.html <br />
 HTML sheet for 3D graph's page
-- main.css
+- main.css<br />
 CSS sheet for asthetics
