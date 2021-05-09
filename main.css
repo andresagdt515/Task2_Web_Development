@@ -43,7 +43,7 @@ html, body {
     z-index: 100;
   }
 
-  .description3D {
+  .description2D {
     left: 100px;
     margin: 10px;
     position: absolute;
