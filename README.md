@@ -10,10 +10,10 @@ Jgraph library
 - Scripts <br />
 JavaScript files to run 2D and 3D graphs
 - index.html <br />
-HTML instructions for initial page (My solution)
+HTML sheet for My solution page
 - 2Dnetwork.html <br />
 HTML sheet for 2D graph's page
 - 3Dnetwork.html <br />
 HTML sheet for 3D graph's page
 - main.css<br />
-CSS sheet for asthetics
+CSS main styling 
