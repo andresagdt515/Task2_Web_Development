@@ -7,34 +7,50 @@
     <title>Andres' solution</title>
     <script src="https://d3js.org/d3.v4.min.js"></script>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-wEmeIV1mKuiNpC+IOBjI7aAzPcEZeedi5yW5f2yOq55WWLwNGmvvx4Um1vskeMj0" crossorigin="anonymous">
-</head>
-<body>
-    <nav class="navbar navbar-expand-lg navbar-light bg-light" width="1000" height="500">
-        <div class="container-fluid">
-          <div class="collapse navbar-collapse" id="navbarNav">
-            <ul class="navbar-nav">
-              <li class="nav-item">
-                <a class="nav-link" href="/Task2_Web_Development/index.html">My solution</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link active" aria-current="page" href="/Task2_Web_Development/2Dnetwork.html">2D graph</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="/Task2_Web_Development/3Dnetwork.html">3D graph</a>
-              </li>
-            </ul>
-          </div>
-        </div>
-      </nav>
-      <div class="card">
+    <link href="main.css" rel="stylesheet" type="text/css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+  
+
+  </head>
+<body style="background-color:#c8d2e0;">
+  <div class="description">
+    <h1><b>This is an interactive force graph!!</b></h1>
+    <p style="font-size: large;">Try grabbing and dragging a node across the screen :)</p>
+    <p style="font-size: large;">
+      You can also open the JavaScript Console (Ctrol+Shift+K, in Windows) to see displayed the information of a node by clicking on it!
+   </p>
+    <p>
+        The graph shown was inspired by this <a href="https://github.com/john-guerra/d3V4ForceTutorial">example</a> by John Guerra.
+        Some variations where added like the arrow direction feature or the colour-node translator feature.
+    </p>
+    
+  </div>
+  <nav class="navbar navbar-expand-lg navbar-light bg-light" width="1000" height="500">
+    <div class="container-fluid">
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav">
+          <li class="nav-item">
+            <a class="nav-link" href="/index.html">My solution</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="/2Dnetwork.html">2D graph</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="/3Dnetwork.html">3D graph</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+      <div class="card"  style="width: 100%; height: 90%; background-color:#c8d2e0;">
         <div class="card-header">
             2D Force directed network graph
         </div>
         <div class="card-body">
-            <canvas id="network" width="1000" height="500"></canvas> 
+            <canvas id="network" width="1500" height="500"></canvas> 
         </div>
       </div>
-    <script src="/Task2_Web_Development/2Dnetwork.js"></script>
+    <script src="/2Dnetwork.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-p34f1UUtsS3wqzfto5wAAmdvj+osOnFyQFpp4Ua3gs/ZVWx6oOypYoCJhGGScy+8" crossorigin="anonymous"></script>
 </body>
 </html>

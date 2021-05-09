@@ -1,0 +1,86 @@
+html, body {
+    height: 100%;
+    overflow: hidden;
+  }
+  
+  body {
+    background: #fff;
+    color: #222;
+    font-family: Helvetica, sans-serif;
+    font-size: 16px;
+    width: 100%;
+    -webkit-overflow-scrolling: touch;
+  }
+  
+  h1 {
+    font-size: 28px;
+    margin-bottom: 14px;
+  }
+  
+  a {
+    cursor: pointer;
+    text-decoration: none;
+  
+    -webkit-transition: 0.15s color ease;
+       -moz-transition: 0.15s color ease;
+        -ms-transition: 0.15s color ease;
+         -o-transition: 0.15s color ease;
+            transition: 0.15s color ease;
+  }
+  
+  .graph {
+    height: 100%;
+    position: absolute;
+    width: 100%;
+  }
+  
+  .description {
+    left: 100px;
+    margin: 10px;
+    position: absolute;
+    top: 50%;
+    width: 400px;
+    z-index: 100;
+  }
+
+  .andres {
+    background-color: #c8d2e0;
+    left: 62%;
+    margin: 10px;
+    position: absolute;
+    top: 60%;
+    width: 400px;
+    z-index: 100;
+  }
+  
+  .description a {
+    color: #156115;
+  }
+  
+  .description a:hover {
+    color: #5e925e;
+  }
+
+  .andres a {
+    color: #156115;
+  }
+  
+  .andres a:hover {
+    color: #5e925e;
+  }
+  
+  .label {
+    background-color: #fff;
+    background-color: rgba(255, 255, 255, 0.8);
+    padding: 10px;
+    position: absolute;
+  }
+
+
+
+
+
+
+
+
+

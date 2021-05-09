@@ -14,7 +14,7 @@ var canvas = d3.select("#network"),
             .id(function (d) { return d.id; }));
         
         
-        d3.json("data.json", function (err, graph) {
+        d3.json("data2D.json", function (err, graph) {
         if (err) throw err;
         
         simulation.nodes(graph.nodes);
@@ -39,7 +39,6 @@ var canvas = d3.select("#network"),
             graph.edges.forEach(drawLink);
             ctx.stroke();
         
-        
             ctx.globalAlpha = 1.0;
             graph.nodes.forEach(drawNode);
         }
@@ -54,7 +53,7 @@ var canvas = d3.select("#network"),
             if (!d3.event.active) simulation.alphaTarget(0.3).restart();
                 d3.event.subject.fx = d3.event.subject.x;
                 d3.event.subject.fy = d3.event.subject.y;
-                console.log(d3.event.subject);
+                console.log("Node_id:", d3.event.subject.id, "\nNode_label:", d3.event.subject.label);
         }
 
         function dragged() {
@@ -79,13 +78,12 @@ var canvas = d3.select("#network"),
             
             c = "#" + c
             
-            
-            
             ctx.fillStyle = c;
             ctx.moveTo(d.x, d.y);
             ctx.arc(d.x, d.y, r, 0, Math.PI*2);
             ctx.fill();
         }
+
         function findCircleLineIntersections(r, h, k, m, n) {
             var a = 1 + (m)**2;
             var b = -h * 2 + (m * (n - k)) * 2;
