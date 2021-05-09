@@ -1,11 +1,6 @@
 
-            jgraph.create('.graph', {directed: true}); //draw 3D directed network using jgraph's create function
+            jgraph.create('.graph', {directed: true}); // look for the the graph class to select the place where I will draw the 3D network
             $.getJSON('../Task2_Web_Development/Data/data3D.json', function (graph) { // loading data
-                jgraph.draw(graph);
+                jgraph.draw(graph); //draw 3D directed network using jgraph's create function
             });
-
-            // $('#toon').click(function () { jgraph.setShader('toon'); });
-            // $('#basic').click(function () { jgraph.setShader('basic'); });
-            // $('#phong').click(function () { jgraph.setShader('phong'); });
-            // $('#lambert').click(function () { jgraph.setShader('lambert'); });
         
